@@ -1,3 +1,7 @@
+# Copyright (c) 2025 [Samarvir Singh Vasale/samarvir1]
+# Licensed under the MIT License.
+# See LICENSE file in the project root for full license information.
+
 import torch
 import torch.nn as nn
 from torch_geometric.data import Batch
@@ -194,4 +198,5 @@ def run_analysis():
 
 
 if __name__ == '__main__':
+
     run_analysis()
